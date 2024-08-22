@@ -17,13 +17,14 @@ function Navbar() {
   const searchHandler = () => {
     searchRef.current.classList.toggle("active");
     cartRef.current.classList.remove("active");
-  }
+    navbarRef.current.classList.remove("active");
+  };
 
   const cartHandler = () => {
     cartRef.current.classList.toggle("active");
     searchRef.current.classList.remove("active");
-
-  }
+    navbarRef.current.classList.remove("active");
+  };
 
   return (
     <>
@@ -41,8 +42,8 @@ function Navbar() {
           <a href="#blogs">Blogs</a>
         </nav>
         <div className='icons'>
-          <div className='fa-solid fa-magnifying-glass' onClick={searchHandler}></div>
-          <div className='fa-solid fa-cart-shopping' onClick={cartHandler}></div>
+          <div className='fa-solid fa-magnifying-glass' id='search-btn' onClick={searchHandler}></div>
+          <div className='fa-solid fa-cart-shopping' id='cart-btn' onClick={cartHandler}></div>
           <div className="fa-solid fa-bars" id='menu-btn' onClick={navbarHandler}></div>
         </div>
         <div className='search-form' ref={searchRef}>
