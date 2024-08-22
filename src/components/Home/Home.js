@@ -8,6 +8,7 @@ const Home = () => {
                     <h3>fresh <span>food in the</span> morning</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae vel nobis nam quis blanditiis accusamus iusto delectus sint ipsum.
                     </p>
+                    <a href="#" className='btn'>get yours now </a>
                 </div>
             </section>
         </>
