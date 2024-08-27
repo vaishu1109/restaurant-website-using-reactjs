@@ -19,22 +19,40 @@ import blogImage2 from "./assets/images/blog-2.jpeg";
 import blogImage3 from "./assets/images/blog-3.jpeg";
 const menu = [
   {
+    name:"Tasty Burger with French Fries",
     img: menuImage1,
+    price:"$30.33",
+    off:"$35.99"
   },
   {
+    name:"French Fries with Snaks",
     img: menuImage2,
+    price:"$40.11",
+    off:"$50.99"
   },
   {
+    name:"Pizza With Extra Cheese",
     img: menuImage3,
+    price:"$30.50",
+    off:"$35.99"
   },
   {
+    name:"Dipped Fried Chicken",
     img: menuImage4,
+    price:"$50.50",
+    off:"$52.99"
   },
   {
+    name:"Paneer roll with Drink",
     img: menuImage5,
+    price:"$10.50",
+    off:"$15.99"
   },
   {
+    name:"Hot Coffee ",
     img: menuImage6,
+    price:"$5.50",
+    off:"$7.99"
   },
 ];
 
