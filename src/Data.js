@@ -12,8 +12,8 @@ import productImage1 from "./assets/images/product-1.png";
 import productImage2 from "./assets/images/product-3.png";
 import productImage3 from "./assets/images/product-3.png";
 import reviewImage1 from "./assets/images/pic-1.png";
-import reviewImage2 from "./assets/images/pic-1.png";
-import reviewImage3 from "./assets/images/pic-1.png";
+import reviewImage2 from "./assets/images/pic-2.png";
+import reviewImage3 from "./assets/images/pic-3.png";
 import blogImage1 from "./assets/images/blog-1.jpeg";
 import blogImage2 from "./assets/images/blog-2.jpeg";
 import blogImage3 from "./assets/images/blog-3.jpeg";
@@ -91,7 +91,7 @@ const review = [
   },
   {
     img: reviewImage3,
-  },
+  }
 ];
 const blog = [
   {
