@@ -85,12 +85,15 @@ const product = [
 const review = [
   {
     img: reviewImage1,
+    name:"Vaishnavi"
   },
   {
     img: reviewImage2,
+    name:"Sneha"
   },
   {
     img: reviewImage3,
+    name:"Avni"
   }
 ];
 const blog = [

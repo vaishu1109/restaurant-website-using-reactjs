@@ -19,7 +19,7 @@ const Review = () => {
                                     quaerat dolor deserunt earum non, aperiam odit cumque et, unde rem eos tempore minima rerum.
                                 </p>
                                 <img src={item.img} alt="people" className='user' />
-                                <h3>Name</h3>
+                                <h3>{item.name}</h3>
                                 <div className='stars'>
                                     <i className="fa-solid fa-star"></i>
                                     <i className="fa-solid fa-star"></i>
