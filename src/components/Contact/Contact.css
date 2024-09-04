@@ -1,0 +1,29 @@
+.contact .row{
+    display: flex;
+    background: #13131a;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.contact .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #13131a;
+    border: 0.2rem solid #ffc107;
+}

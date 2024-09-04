@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../Contact/Contact.css"
 const Contact = () => {
   return (
     <>
@@ -18,8 +18,18 @@ const Contact = () => {
           <form>
             <h3>get in touch</h3>
             <div className='inputBox'>
-              <span></span>
+              <span className="fa-solid fa-user"></span>
+              <input type='text' placeholder='name'/>
             </div>
+            <div className='inputBox'>
+              <span className="fa-solid fa-envelope"></span>
+              <input type='email' placeholder='email'/>
+            </div>
+            <div className='inputBox'>
+              <span className="fa-solid fa-phone"></span>
+              <input type='number' placeholder='number'/>
+            </div>
+            <input type='submit' value="contact now" className='btn'/>
           </form>
         </div>
       </section>
