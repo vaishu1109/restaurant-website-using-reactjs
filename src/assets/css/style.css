@@ -66,6 +66,12 @@ section {
   .btn:hover {
     letter-spacing: 0.2rem;
   }
+  @media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+  }
+  
   
   
   
