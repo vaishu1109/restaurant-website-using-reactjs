@@ -74,12 +74,15 @@ const cart = [
 const product = [
   {
     img: productImage1,
+    name: "Burger",
   },
   {
     img: productImage2,
+    name: "Cup Cake"
   },
   {
     img: productImage3,
+    name: "Cup Cake"
   },
 ];
 const review = [

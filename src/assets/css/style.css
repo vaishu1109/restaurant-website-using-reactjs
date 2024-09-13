@@ -71,7 +71,19 @@ section {
       font-size: 50%;
     }
   }
+  @media (max-width: 991px) {
+    html {
+      font-size: 55%;
+    }
   
+    .header {
+      padding: 1.5rem 2rem;
+    }
+  
+    section {
+      padding: 2rem;
+    }
+  }  
   
   
   

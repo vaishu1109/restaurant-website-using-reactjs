@@ -2,6 +2,7 @@ import React from 'react'
 import "../Product/Product.css"
 import { product } from '../../Data'
 const Product = () => {
+  const star=<i className="fa-solid fa-star"></i>;
   return (
     <>
       <section className='product' id='product'>
@@ -19,9 +20,9 @@ const Product = () => {
                   <img src={item.img} alt="images" />
                 </div>
                 <div className='content'>
-                  <h3>Fresh Coffee</h3>
+                  <h3>{item.name}</h3>
                   <div className='stars'>
-                    <i className="fa-solid fa-star"></i>
+                    {star}
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>

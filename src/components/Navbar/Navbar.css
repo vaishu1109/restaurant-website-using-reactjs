@@ -149,7 +149,8 @@
     width: 30rem;
     height: calc(100vh - 9.5rem);
   }
-  .header .navbar .active{
+
+  .header .navbar .active {
     right: 0;
   }
 
@@ -165,5 +166,5 @@
     width: 90%;
     right: 2rem;
   }
-  
+
 }
